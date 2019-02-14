@@ -1,0 +1,16 @@
+.parent{
+    position: absolute;
+    height:100%;//高度根据需求自行设定
+    width: 100%;
+    background: #ffffff;
+}
+.child{
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;  //left,top,right,bottom都为0，充满真个页面
+    overflow-y:auto !important;
+    overflow-x:hidden !important; //设置Y轴出现滚动条，X轴隐藏
+    -webkit-overflow-scrolling: touch; 
+}

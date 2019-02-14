@@ -1,0 +1,19 @@
+.btn{
+    width: 518rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    border-radius: 90rpx;
+    border: none;
+    outline: none;
+    font-size: 32rpx;
+    background: linear-gradient(to right,#75D672,#14BF6D);
+    color: #ffffff;
+}
+.cancel{
+    background: #fff;
+    color: #14BF6D;
+    border: 1px solid #14BF6D;
+}
+.disabled{
+    color:rgba(255,255,255,0.6);
+}

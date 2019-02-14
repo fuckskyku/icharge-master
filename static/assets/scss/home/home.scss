@@ -1,0 +1,169 @@
+.header{
+    width: 100%;
+    height: 300rpx;
+    font-size: 50rpx;
+    background: url('https://charge.xmnewlife.com/images/newlife_master/index_charge_fund/img_home_bg.png') no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff; 
+    .hd{
+        position: relative;
+        padding: 30rpx;
+        font-size: 34rpx;        
+        .lt{
+            float: left;
+        }
+        .rt{
+            float: right;
+            position: relative;
+            span{
+                margin-right: 30rpx;
+            }
+            .img_arrow_white{
+                width: 16rpx;
+                height: 26rpx;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                margin-top: -11rpx;
+            }
+        }
+    }
+    .bd{
+        text-align: center;
+        font-size: 36rpx;
+        margin-top: 50rpx;
+        span{
+            display: inline-block;
+            font-size: 90rpx;
+            font-weight: 600;
+        }   
+    }
+}
+.section{
+    position: relative;
+    z-index: 99;
+    top: -30rpx;
+    .charge{
+        width: 690rpx;
+        height: 220rpx;
+        margin: 0 auto;
+        background: url('https://charge.xmnewlife.com/images/newlife_master/index_charge_fund/img_bg2.png') no-repeat;
+        background-size: 100% 100%;
+        
+    }
+    .use{
+        width: 690rpx;
+        height: 220rpx;
+        margin: 20rpx auto 0;
+        background: url('https://charge.xmnewlife.com/images/newlife_master/index_charge_fund/img_bg3.png') no-repeat;
+        background-size: 100% 100%;
+    }
+    .hd{
+        padding: 30rpx 30rpx 4rpx;
+        position: relative;
+        .line{
+            width: 10rpx;
+            height: 32rpx;
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 10rpx;
+            background: #14BF6D;
+            -webkit-border-radius: 10rpx;
+            -moz-border-radius: 10rpx;
+            -ms-border-radius: 10rpx;
+            -o-border-radius: 10rpx;
+            margin-right: 20rpx;
+        }
+        .lt{
+            font-size: 34rpx;
+            color: #333333;
+            display: inline-block;
+            vertical-align: middle;
+            
+        }
+        .rt{
+            float: right;
+            position: relative;
+            color: #999999;
+            font-size: 40rpx;
+            span{
+                margin-right: 30rpx;
+            }
+        }
+        .img_arrow{
+            width: 18rpx;
+            height: 28rpx;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            margin-top: -11rpx;
+        }
+    }
+    .bd{
+        color: #999999;
+        font-size: 36rpx;
+        .lt{
+            margin-left: 50rpx;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .rt{
+            margin-left: 90rpx;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        span{
+            color: #14BF6D;
+            font-size: 60rpx;
+            font-weight: bold;
+        }
+    }
+}
+
+.footer{
+    .hd{
+        padding: 10rpx 30rpx;
+        .tip{
+            width: 50rpx;
+            height: 50rpx;
+            vertical-align: middle;
+        }
+        p{
+            color: #333333;
+            font-size: 34rpx;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 16rpx;
+        }
+    }
+    .bd{
+        padding: 30rpx;
+        .cell{
+            padding: 20rpx 30rpx;
+            background: #FAFAFA;
+            border: 1rpx solid #D8D8D8;
+            border-radius: 10rpx;
+            -webkit-border-radius: 10rpx;
+            -moz-border-radius: 10rpx;
+            -ms-border-radius: 10rpx;
+            -o-border-radius: 10rpx;
+            display: flex;
+            color: #333333;
+            font-size: 30rpx;
+            margin-bottom: 16rpx;
+            .lt{
+                flex: 1;
+            }
+            .center{
+                flex: 1;
+                text-align: center;
+            }
+            .rt{
+                flex: 1;
+                color: #14BF6D;
+                text-decoration: underline;
+                text-align: right;
+            }
+        }
+    }
+}

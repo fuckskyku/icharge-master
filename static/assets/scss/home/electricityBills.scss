@@ -1,0 +1,79 @@
+.header{
+    width: 100%;
+    height: 280rpx;
+    background: url('https://charge.xmnewlife.com/images/newlife_master/index_charge_fund/img_electric_bg.png') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    .energy{
+        width: 300rpx;
+        height: 150rpx;
+        color: #ffffff;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        .title{
+            font-size: 34rpx;
+        }
+        .context{
+            font-size: 90rpx;
+            position: relative;
+            top: -10rpx;
+        }
+    }
+}
+.section{
+    background: #ffffff;
+    .cell{
+        display: flex;
+        font-size: 34rpx;
+        position: relative;
+        padding: 30rpx;
+        .hd{
+            flex: 1;
+            color: #333333;
+            .subTitle{
+                margin-top: 20rpx;
+            }
+        }
+        .fd{
+            flex: 1;
+            text-align: right;
+            .degree{
+                color: #14BF6D;
+            }
+            .time{
+                font-size: 24rpx;
+                color: #666666;
+            }
+        }
+        .lt{
+            flex: 4;
+            color: #999999;
+        }
+        .rt{
+            flex: 6;
+            text-align: right;
+            color: #333333;
+        }
+    }
+    .cell::after{
+        content: "";
+        width: 97%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-bottom: 1rpx solid #E5E5E5; 
+    }
+    .cell:last-child:after{
+        border-bottom: none;
+    }
+
+}
+.child{
+    padding-bottom: 240rpx;
+    background: #f4f4f4;
+}

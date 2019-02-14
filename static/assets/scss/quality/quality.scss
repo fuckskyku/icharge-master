@@ -1,0 +1,85 @@
+/*
+    资质认证
+*/
+.parent{
+    position: absolute;
+    height:100%;//高度根据需求自行设定
+    width: 100%;
+    background: #ffffff;
+  }
+.child{
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;  //left,top,right,bottom都为0，充满真个页面
+    overflow-y:auto !important;
+    overflow-x:hidden !important; //设置Y轴出现滚动条，X轴隐藏
+    -webkit-overflow-scrolling: touch; 
+}
+/*
+    审核失败提示
+*/
+.header{
+    background: #FFE4E4;
+    padding: 24rpx 30rpx;
+    font-size: 32rpx;
+    .failed{
+        width: 38rpx;
+        height: 38rpx;
+    }
+}
+.section{
+    padding: 30rpx;
+    .cell{
+        border-bottom: 1rpx solid #D1D1D1; 
+        .title{
+            font-size: 32rpx;
+            color: #333333;
+            margin: 26rpx 0;
+        }
+        .subTitle{
+            font-size: 32rpx;
+            color: #333333;
+            margin: 26rpx 0;
+            img{
+                width: 360rpx;
+                height: 250rpx;
+            }
+            .arrow{
+                width: 14rpx;
+                height: 26rpx;
+                position: absolute;
+                right: 50rpx;
+                top: 50%;
+                margin-top: -13rpx;  
+            }
+            .in{
+                width: 49%;
+                display: inline-block;
+            }
+        }
+    }
+    .cell:first-child{
+        .title{
+            margin: 0 0 26rpx;
+        }
+    }
+    .desc{
+        font-size: 24rpx;
+        color: #999999;
+        margin-top: 10rpx;
+    }
+}
+.footer{
+    margin-bottom: 80rpx;
+}
+.clear_broder{
+    border: none !important;
+}
+.relative{
+    position: relative;
+}
+.border_bottom{
+    border-bottom: 1rpx solid #D1D1D1; 
+}

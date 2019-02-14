@@ -1,0 +1,27 @@
+.submit{
+    .banner{
+        width: 378rpx;
+        height: 210rpx;
+        margin: 82rpx auto 48rpx;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .title{
+        padding: 0 0 40rpx;
+        font-size: 40rpx;
+        color: #14BF6D;
+        text-align: center;
+      }
+      .subTitle{
+          width: 517rpx;
+        text-align: center;
+        font-size: 30rpx;
+        color: #B0B0B0;
+        margin: 0 auto;
+        .bright{
+          color: #FB910C;
+        }
+    }
+}

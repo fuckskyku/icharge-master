@@ -1,0 +1,39 @@
+.header{
+    padding: 30rpx;
+    .content{
+        width: 690rpx;
+        height: 160rpx;
+        background: url('https://charge.xmnewlife.com/images/newlife_master/index_charge_fund/img_bg4.png') no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        color: #ffffff;
+        margin: 0 auto;
+        .title{
+            padding: 24rpx 30rpx 0;
+        }
+        .desc{
+            padding: 0 30rpx;
+        }
+    }
+    
+}
+.section{
+    padding: 30rpx;
+    .cell{
+        border-bottom: 1rpx solid #E5E5E5;
+        color: #333333;
+        .title{
+            font-size: 34rpx;
+        }
+        .container{
+            input{
+                display: inline;
+            }
+        }
+    }
+}
+.tip{
+    padding: 10rpx 0;  
+    font-size: 24rpx;
+    color: #999999;    
+ }
