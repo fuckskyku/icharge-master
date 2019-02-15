@@ -26,7 +26,10 @@ export default {
       'pages/home/electricityBillsDetails/main',      //用电记录详情
       'pages/home/moneyBills/main',                   //资金记录        
       'pages/home/withdrawalApply/main',              //提现申请
-      '^pages/home/useCondition/main',                //桩站使用情况
+      'pages/home/useCondition/main',                //桩站使用情况
+      'pages/electricitySet/coupons/main',            //优惠券
+      '^pages/electricitySet/couponsDetails/main',     //优惠券详情
+      'pages/electricitySet/periodElectricity/main', //时段电价
       'pages/qualification/quality/main',             //桩站资质认证
       'pages/qualification/submitSuccess/main',       //桩站资质认证提交成功
       'pages/electricitySet/coupons/main',            //优惠券  
