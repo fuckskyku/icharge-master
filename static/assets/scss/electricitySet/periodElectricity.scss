@@ -1,0 +1,110 @@
+.child{
+    background: #f4f4f4;
+}
+.cell{
+    margin-bottom: 26rpx;
+    background: #ffffff;
+    .hd{
+        display: flex;
+        text-indent: 24rpx;
+        position: relative;
+        padding: 30rpx;
+        .line{
+            width: 8rpx;
+            height: 28rpx;
+            background: #14BF6D;
+            position: absolute;
+            top: 50%;
+            left: 30rpx;
+            margin-top: -16rpx;
+        }
+        .lt{
+            flex: 1;
+            color: #333333;
+        }
+        .rt{
+            flex: 1;
+            text-align: right;
+            .edit{
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                text-indent: 0rpx;
+                padding: 0;
+                width: 100rpx;
+                height: 46rpx;
+                line-height: 46rpx;
+                color: #14BF6D;
+                font-size: 30rpx;
+                border: 1rpx solid #14BF6D;
+                border-radius: 23rpx;
+                -webkit-border-radius: 23rpx;
+                -moz-border-radius: 23rpx;
+                -ms-border-radius: 23rpx;
+                -o-border-radius: 23rpx;
+            }
+            .del{
+                display: inline-block;
+                vertical-align: middle;
+                width: 46rpx;
+                height: 46rpx;
+                margin-right: 40rpx;
+                img{
+                    width: 46rpx;
+                    height: 46rpx;
+                }
+            }
+        }
+    }
+    .hd::after{
+        width: 96%;
+        content: '';
+        border-bottom: 1rpx solid #E5E5E5;
+        position: absolute;
+        right: 0;
+        bottom: -1rpx;
+    }
+    .bd{
+        display: flex;
+        font-size: 30rpx;
+        padding: 30rpx;
+        .lt{
+            flex: 4;
+            color: #999999;
+            font-size: 28rpx;
+        }
+        .rt{
+            flex: 6;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #333333;
+            p{
+               flex: 1; 
+            }
+        }
+    }
+}
+.empty{
+    text-align: center;
+    .banner{
+        width: 374rpx;
+        height: 288rpx;
+        margin: 0 auto;
+        padding-top: 120rpx;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }    
+}
+
+.desc{
+    padding: 0 30rpx;
+    background: #f4f4f4;
+    font-size: 28rpx;
+    color: #999999;
+}
+.btn{
+    margin-top: 90rpx;
+}

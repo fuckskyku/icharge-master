@@ -1,0 +1,150 @@
+.coupons{
+    .content{  
+      padding: 30rpx 30rpx;
+      background: #f4f4f4;
+    }
+    .cell{
+        width: 100%;
+        height: 242rpx;
+        color: #14BF6D;
+        background: #ffffff;
+        background: url('https://charge.xmnewlife.com/images/newlife_master/history_coupon/img_coupon2.png') no-repeat;
+        background-size: 100% 100%;
+    }
+    .box{
+      display: flex;
+      align-items: center;
+      border-radius: 10rpx;
+      position: relative;
+      top: 10rpx;
+      z-index: 19;
+      .img_hd{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+      }
+      .lt{
+        flex: 6;
+        font-size: 28rpx;
+        padding: 0 0 0 25rpx;
+        color: #FF9C00;
+        position: relative;
+        top: 3rpx;
+        p{
+          margin-bottom: 10rpx;
+        }
+        .price{
+          font-size: 100rpx;
+          font-weight: bold;
+          margin: 0 10rpx 0 -8rpx;
+        }
+      }
+      .rt{
+        flex: 4;
+        text-align: right;
+        padding: 0 25rpx 0 0;
+        .hd{
+          color: #FF9C00;
+          font-size: 30rpx;
+        //   margin-top: 48rpx;
+        }
+        .fd{
+          color: #999999;
+          font-size: 24rpx;
+          
+        }
+      }
+      
+    }
+    .used{
+      color: #999999 !important;
+      background: url('https://charge.xmnewlife.com/images/newlife_master/history_coupon/img_coupon2.png') no-repeat;
+      background-size: 100% 100%;
+      position: relative;
+      .img_mark{
+        width: 120rpx;
+        height: 94rpx;
+        position: absolute;
+        top: 0rpx;
+        right: 180rpx;
+        z-index: 9999;
+      }
+      .lt{
+        color: #999999;
+      }
+      .rt{
+            .hd{
+                color: #999999;
+            }
+            .fd{
+                
+            }
+      }
+    }
+    .foot{
+        font-size: 24rpx;
+        color: #999999;
+        padding: 0 30rpx;
+        border-top: 1rpx solid #E9E9E9; 
+        display: flex;
+        align-items: center;
+        height: 60rpx;
+        line-height: 60rpx;
+        padding-top: 8rpx; 
+    }
+  }
+  .empty{
+    width: 374rpx;
+    height: 360rpx;
+    font-size: 34rpx;
+    color: #777;
+    text-align:center;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 30rpx;
+    img{
+      width: 374rpx;
+      height: 288rpx;
+    }
+  }
+  .weui-navbar__item.weui-bar__item_on {
+    color: #14BF6D;
+}
+// navBar底部slider长度
+.weui-navbar__slider{
+    width: 1.2em;
+    height: 8rpx;
+    background-color: #14BF6D;
+    border-radius: 8rpx;
+    -webkit-border-radius: 8rpx;
+    -moz-border-radius: 8rpx;
+    -ms-border-radius: 8rpx;
+    -o-border-radius: 8rpx;
+}
+.weui-tab__panel{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+// navBar定位
+.weui-navbar{
+    border-bottom: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+}
+.weui-tab__content{
+    
+    background: #f4f4f4;
+}
+// 优惠券背景色
+.coupons_content{
+    background: #ffffff;
+}
+.child{
+    background: #f4f4f4;
+}

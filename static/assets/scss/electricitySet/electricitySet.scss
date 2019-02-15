@@ -1,0 +1,203 @@
+.weui-navbar__item.weui-bar__item_on {
+    color: #14BF6D;
+}
+// navBar底部slider长度
+.weui-navbar__slider{
+    width: 1.2em;
+    height: 8rpx;
+    background-color: #14BF6D;
+    border-radius: 8rpx;
+    -webkit-border-radius: 8rpx;
+    -moz-border-radius: 8rpx;
+    -ms-border-radius: 8rpx;
+    -o-border-radius: 8rpx;
+}
+.weui-tab__panel{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+// navBar定位
+.weui-navbar{
+    border-bottom: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+}
+.weui-tab__content{
+    background: #F7FFFB;
+}
+// 优惠券背景色
+.coupons_content{
+    background: #ffffff;
+}
+/*
+电价设置
+*/
+.set{
+    .box{
+        padding: 75rpx 75rpx 65rpx;
+        margin: 0 auto;
+        .cell{
+            font-size: 32rpx;
+            color: #333333;
+            margin-bottom: 22rpx;
+            display: flex;
+            align-items: center;
+            .sign{
+                color: #14BF6D;
+                font-size: 50rpx;
+                position: relative;
+                top: 4rpx;
+                margin-right: 8rpx;
+            }
+            .input{
+                margin-top: 16rpx;
+                height: 80rpx;
+                padding-left: 1em;
+                border: 1rpx solid #999999;
+                border-radius: 10rpx;
+                -webkit-border-radius: 10rpx;
+                -moz-border-radius: 10rpx;
+                -ms-border-radius: 10rpx;
+                -o-border-radius: 10rpx;
+            }
+        }
+    }
+    .section{
+        padding-bottom: 50rpx;
+        .btn{
+            margin-bottom: 40rpx;
+        }
+        .cancel{
+            background: transparent;
+        }
+    }
+    .footer{
+        width: 538rpx;
+        height: 154rpx;
+        margin: 0 auto;
+        padding-bottom: 36rpx;
+        img{
+            width: 538rpx;
+            height: 154rpx;
+        }
+    }
+}
+
+/*
+设置优惠券
+*/
+.coupons{
+    font-size: 32rpx;
+    .header{
+        margin-top: 40rpx;
+        .title{
+            padding: 30rpx 30rpx 14rpx;
+            text-align: right;
+            color: #FF8A00;
+            font-size: 30rpx;
+            img{
+                width: 22rpx;
+                height: 24rpx;
+            }
+        }
+    }
+    .section{
+        .box{
+            padding: 0 30rpx;
+            margin: 0 auto;
+            .cell{
+                font-size: 32rpx;
+                color: #333333;
+                margin-bottom: 22rpx;
+                display: flex;
+                align-items: center;
+                span{
+                    position: relative;
+                    top: 2rpx;
+                }
+                .sign{
+                    color: #14BF6D;
+                    font-size: 50rpx;
+                    position: relative;
+                    top: 2rpx;
+                    margin-right: 8rpx;
+                }
+                .input{
+                    flex:2;
+                    margin-top: 16rpx;
+                    margin-left: 16rpx;
+                    height: 80rpx;
+                    padding-left: 1em;
+                    border: 1rpx solid #999999;
+                    border-radius: 10rpx;
+                    -webkit-border-radius: 10rpx;
+                    -moz-border-radius: 10rpx;
+                    -ms-border-radius: 10rpx;
+                    -o-border-radius: 10rpx;
+                }
+            }
+        }
+        // 
+        .warp{
+            padding: 30rpx 30rpx 0;
+            margin: 0 auto;
+            .cell{
+                font-size: 32rpx;
+                color: #333333;
+                margin-bottom: 22rpx;
+                
+                .sign{
+                    color: #14BF6D;
+                    font-size: 50rpx;
+                    margin-right: 8rpx;
+                    position: relative;
+                    top: 6rpx;
+                }
+                .fd{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    span{
+                        position: relative;
+                        top: 2rpx;
+                    }
+                    .input{
+                        flex: 2;
+                        margin-top: 16rpx;
+                        height: 80rpx;
+                        padding-left: 1em;
+                        border: 1rpx solid #999999;
+                        border-radius: 10rpx;
+                        -webkit-border-radius: 10rpx;
+                        -moz-border-radius: 10rpx;
+                        -ms-border-radius: 10rpx;
+                        -o-border-radius: 10rpx;
+                        margin-left: 16rpx;
+                    }
+                    .arrow{
+                        width: 14rpx;
+                        height: 26rpx;
+                        position: absolute;
+                        right: 30rpx;
+                        top: 50%;
+                        margin-top: -11rpx;
+                    }
+                }
+                
+            }
+        }
+        .tip{
+            font-size: 30rpx;
+            color: #999999;
+            padding: 10rpx 30rpx;
+        }
+    }
+    .footer{
+        .btn{
+            margin: 40rpx auto 50rpx;
+        }
+    }
+}
