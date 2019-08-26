@@ -1,6 +1,6 @@
 # newlife-master
 
-> 新活充电桩站管理小程序
+> 充电桩站管理小程序
 
 ## Build Setup
 
