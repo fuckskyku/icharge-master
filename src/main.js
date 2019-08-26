@@ -68,7 +68,7 @@ export default {
     window: {
       backgroundTextStyle: 'dark',
       navigationBarBackgroundColor: '#14BF6D',
-      navigationBarTitleText: '新活充电',
+      navigationBarTitleText: '特电',
       navigationBarTextStyle: 'white',
       enablePullDownRefresh: true,  
       // disableScroll: true

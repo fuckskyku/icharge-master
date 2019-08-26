@@ -107,7 +107,7 @@ export default {
     setTimeout(()=>{
       wx.stopPullDownRefresh();//停止当前页面下拉刷新。
       wx.setNavigationBarTitle({
-        title: '新活充电-桩站端'
+        title: '特电-桩站端'
       })//动态设置当前页面的标题。
       wx.hideNavigationBarLoading();//在当前页面隐藏导航条加载动画
     },1000)
